@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorprimary"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_marginTop="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cash Out"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/cashout_white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="70dp"
+        android:text="Cash Out via GCash"
+        android:textColor="@color/coloraccentlight"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="Enter Amount"
+        android:textColor="@color/coloraccent"
+        android:textSize="19dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/cashout_EnterAmount"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="-20dp"
+        android:background="@drawable/round"
+        android:hint="PHP 0.00"
+        android:textColor="@color/black"
+        android:inputType="number"
+        android:gravity="center"
+        android:maxLength="6"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textSize="20sp" />
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:layout_marginTop="60dp"-->
+<!--        android:text="GCASH NUMBER"-->
+<!--        android:textColor="@color/coloraccent"-->
+<!--        android:textSize="15dp"-->
+<!--        android:textStyle="bold" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/cashout_GCashAccount"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:background="@drawable/round"-->
+<!--        android:hint="+63**********"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:paddingLeft="21dp"-->
+<!--        android:inputType="number"-->
+<!--        android:maxLength="11"-->
+<!--        android:textSize="16sp" />-->
+
+    <Button
+        android:id="@+id/cashout_next"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center"
+        android:background="@drawable/loginbutton"
+        android:text="Next"
+        android:textColor="@color/black"/>
+
+<!--    <com.google.android.material.bottomnavigation.BottomNavigationView-->
+<!--        android:id="@+id/bottomNavigationView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="71dp"-->
+<!--        android:background="@color/colorprimarydark"-->
+<!--        app:itemIconSize="30dp"-->
+<!--        app:itemIconTint="@color/bnv_tab_item"-->
+<!--        app:itemTextColor="@color/bnv_tab_item"-->
+<!--        app:labelVisibilityMode="unlabeled"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:menu="@menu/bottom_navmenu" />-->
+
+<!--    <View-->
+<!--        android:id="@+id/vieDivider"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="1dp"-->
+<!--        app:layout_constraintBottom_toTopOf="@id/bottomNavigationView"/>-->
+
+
+</LinearLayout>

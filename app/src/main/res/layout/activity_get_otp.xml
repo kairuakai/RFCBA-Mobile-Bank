@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/colorprimary"
+    tools:context=".GetOtp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <!--Icon-->
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="131dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/shieldwithlock" />
+
+            <!--Heading-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Verification"
+                android:layout_marginTop="35dp"
+                android:textColor="@color/coloraccentlight"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/poppins"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:textAlignment="center"
+                android:text="We will send you a One Time Password on your phone number"
+                android:textColor="@color/coloraccentlight" />
+
+            <!--NumberOtp-->
+
+            <!--Button-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:background="@drawable/round">
+
+                <com.hbb20.CountryCodePicker
+                    android:id='@+id/ccp'
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="16dp"
+                    android:gravity="center"
+                    app:ccp_showFlag="false"
+                    app:ccp_defaultNameCode="PH"
+                    app:ccp_showNameCode="false"
+                    app:ccp_textSize="16sp"/>
+
+                <!--Enter Mobile-->
+                <EditText
+                    android:id="@+id/entermobile"
+                    android:layout_width="210dp"
+                    android:layout_height="55dp"
+                    android:layout_marginEnd="20dp"
+                    android:fontFamily="@font/poppins"
+                    android:hint="1234567890"
+                    android:inputType="textPersonName"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/getotpnum"
+                    android:layout_width="300dp"
+                    android:layout_height="55dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/loginbutton"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="Get OTP" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+</LinearLayout>

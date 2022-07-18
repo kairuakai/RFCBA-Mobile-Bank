@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorprimary">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <FrameLayout
+            android:id="@+id/mainhome"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/balance"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/requestmoney">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="170dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/fullmicon"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"/>
+
+                <TextView
+                    android:id="@+id/currentPayment"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="-20dp"
+                    android:background="@drawable/round"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:text="₱ 0.00"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:padding="10dp"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    android:textColor="@color/black" />
+                <!--Text-->
+                <TextView
+                    android:id="@id/text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="50dp"
+                    android:text="Find what you need"
+                    android:textColor="@color/coloraccentlight"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cashin"
+                android:layout_width="170dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/cashout"
+                app:layout_constraintTop_toBottomOf="@id/requestmoney"
+                android:background="@drawable/round"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/cash_in_btn"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/cashin"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Cash In"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorprimarydark"
+                    android:textSize="11sp"
+                    android:paddingTop="6dp"/>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/cashout"
+                android:layout_width="170dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintStart_toEndOf="@id/cashin"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/donatemoney"
+                android:background="@drawable/round"
+                app:layout_constraintDimensionRatio="H,1:1"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/cash_out_btn"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/cashout"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Cash Out"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorprimarydark"
+                    android:textSize="11sp"
+                    android:paddingTop="6dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/requestmoney"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/paymentonline"
+                app:layout_constraintTop_toBottomOf="@id/balance"
+                android:background="@drawable/round"
+                app:layout_constraintDimensionRatio="H,1:1"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/req_money"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/requestmoney"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Request Money"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorprimarydark"
+                    android:textSize="11sp"
+                    android:paddingTop="6dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/paymentonline"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="22dp"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintStart_toEndOf="@id/requestmoney"
+                app:layout_constraintEnd_toStartOf="@+id/donatemoney"
+                app:layout_constraintTop_toBottomOf="@id/balance"
+                android:background="@drawable/round"
+                app:layout_constraintDimensionRatio="H,1:1"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/donatemain"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/donatemoney"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Donate"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorprimarydark"
+                    android:textSize="11sp"
+                    android:paddingTop="6dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/donatemoney"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintStart_toEndOf="@id/paymentonline"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/balance"
+                android:background="@drawable/round"
+                app:layout_constraintDimensionRatio="H,1:1"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/trans_money"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/transfermoney" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Transfer Money"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorprimarydark"
+                    android:textSize="11sp"
+                    android:paddingTop="6dp"/>
+            </LinearLayout>
+
+
+
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        </FrameLayout>
+    </ScrollView>
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@color/colorprimarydark"
+        app:menu="@menu/bottom_navmenu"
+        app:labelVisibilityMode="unlabeled"
+        app:itemIconSize="30dp"
+        app:itemIconTint="@color/bnv_tab_item"
+        app:itemTextColor="@color/bnv_tab_item" />
+
+    <View
+        android:id="@+id/vieDivider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        app:layout_constraintBottom_toTopOf="@id/bottomNavigationView"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

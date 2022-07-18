@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/colorprimary"
+    tools:context=".VerifyOtp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!--Icon-->
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="131dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/shieldwithcheck" />
+
+        <!--Heading-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="Verification"
+            android:layout_marginTop="35dp"
+            android:textColor="@color/coloraccentlight"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:textAlignment="center"
+            android:text="You will get OTP via SMS "
+            android:textColor="@color/coloraccentlight" />
+
+        <!--NumberOtp-->
+        <EditText
+            android:id="@+id/vOTP"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="-20dp"
+            android:background="@drawable/round"
+            android:fontFamily="@font/poppins"
+            android:textAlignment="center"
+            android:inputType="number"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/resendotp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/poppins"
+            android:text="Resend Code"
+            android:textAlignment="center"
+            android:textColor="@color/coloraccentlight"
+            android:textStyle="bold" />
+
+        <!--Button-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/verifyotpnum"
+                android:layout_width="300dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/loginbutton"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Verify OTP" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

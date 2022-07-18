@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "682374476212",
+    "firebase_url": "https://rfcba-bankpet-default-rtdb.firebaseio.com",
+    "project_id": "rfcba-bankpet",
+    "storage_bucket": "rfcba-bankpet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:682374476212:android:d99c63c05ce61f76d502e1",
+        "android_client_info": {
+          "package_name": "com.example.rfcba_bankpet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "682374476212-6o7neaboou6qa02ia7nrqfp9f9qvt689.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rfcba_bankpet",
+            "certificate_hash": "37f992ba7aacbe2ebfda14c7616325294247aa38"
+          }
+        },
+        {
+          "client_id": "682374476212-bhof8kvnc0eum4uiier6vl1d6c1lup62.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBN_eBTZ1Ur4Wi96IA97v_hUmGiGRV0tK4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "682374476212-bhof8kvnc0eum4uiier6vl1d6c1lup62.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

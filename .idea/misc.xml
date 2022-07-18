@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/PROGRAMMING/Android/MOBAPP/bscs/RFCBA_Module1.5v/RFCBA_BankPet/app/src/main/res/drawable/bluebutton.xml" value="0.1405" />
+        <entry key="..\:/PROGRAMMING/Android/MOBAPP/bscs/RFCBA_Module1.5v/RFCBA_BankPet/app/src/main/res/drawable/ic_baseline_contact_phone_24.xml" value="0.2545" />
+        <entry key="..\:/PROGRAMMING/Android/MOBAPP/bscs/RFCBA_Module1.5v/RFCBA_BankPet/app/src/main/res/font/poppin_bold.xml" value="0.30833333333333335" />
+        <entry key="..\:/PROGRAMMING/Android/MOBAPP/bscs/RFCBA_Module1.5v/RFCBA_BankPet/app/src/main/res/font/poppins_regular.xml" value="0.30833333333333335" />
+        <entry key="..\:/PROGRAMMING/Android/MOBAPP/bscs/RFCBA_Module1.5v/RFCBA_BankPet/app/src/main/res/layout/actiivity_verify_otp.xml" value="0.278125" />
+        <entry key="..\:/PROGRAMMING/Android/MOBAPP/bscs/RFCBA_Module1.5v/RFCBA_BankPet/app/src/main/res/layout/activity_cash_in_page1.xml" value="0.278125" />
+        <entry key="..\:/PROGRAMMING/Android/MOBAPP/bscs/RFCBA_Module1.5v/RFCBA_BankPet/app/src/main/res/layout/activity_cash_in_page2.xml" value="0.25" />
+        <entry key="..\:/PROGRAMMING/Android/MOBAPP/bscs/RFCBA_Module1.5v/RFCBA_BankPet/app/src/main/res/layout/activity_cash_in_page3.xml" value="0.278125" />
+        <entry key="..\:/PROGRAMMING/Android/MOBAPP/bscs/RFCBA_Module1.5v/RFCBA_BankPet/app/src/main/res/layout/activity_cash_in_page4.xml" value="0.278125" />
+        <entry key="..\:/PROGRAMMING/Android/MOBAPP/bscs/RFCBA_Module1.5v/RFCBA_BankPet/app/src/main/res/layout/activity_cash_out_page1.xml" value="0.278125" />
+        <entry key="..\:/PROGRAMMING/Android/MOBAPP/bscs/RFCBA_Module1.5v/RFCBA_BankPet/app/src/main/res/layout/activity_cash_out_page2.xml" value="0.278125" />
+        <entry key="..\:/PROGRAMMING/Android/MOBAPP/bscs/RFCBA_Module1.5v/RFCBA_BankPet/app/src/main/res/layout/activity_cash_out_page3.xml" value="0.278125" />
+        <entry key="..\:/PROGRAMMING/Android/MOBAPP/bscs/RFCBA_Module1.5v/RFCBA_BankPet/app/src/main/res/layout/activity_cashout_page4.xml" value="0.278125" />
+        <entry key="..\:/PROGRAMMING/Android/MOBAPP/bscs/RFCBA_Module1.5v/RFCBA_BankPet/app/src/main/res/layout/activity_donate_transaction_page.xml" value="0.22509057971014493" />
+        <entry key="..\:/PROGRAMMING/Android/MOBAPP/bscs/RFCBA_Module1.5v/RFCBA_BankPet/app/src/main/res/layout/activity_donated_page.xml" value="0.22509057971014493" />
+        <entry key="..\:/PROGRAMMING/Android/MOBAPP/bscs/RFCBA_Module1.5v/RFCBA_BankPet/app/src/main/res/layout/activity_donation_page2.xml" value="0.24375" />
+        <entry key="..\:/PROGRAMMING/Android/MOBAPP/bscs/RFCBA_Module1.5v/RFCBA_BankPet/app/src/main/res/layout/activity_edit_information.xml" value="0.278125" />
+        <entry key="..\:/PROGRAMMING/Android/MOBAPP/bscs/RFCBA_Module1.5v/RFCBA_BankPet/app/src/main/res/layout/activity_emailverification.xml" value="0.278125" />
+        <entry key="..\:/PROGRAMMING/Android/MOBAPP/bscs/RFCBA_Module1.5v/RFCBA_BankPet/app/src/main/res/layout/activity_history.xml" value="0.278125" />
+        <entry key="..\:/PROGRAMMING/Android/MOBAPP/bscs/RFCBA_Module1.5v/RFCBA_BankPet/app/src/main/res/layout/activity_main.xml" value="0.278125" />
+        <entry key="..\:/PROGRAMMING/Android/MOBAPP/bscs/RFCBA_Module1.5v/RFCBA_BankPet/app/src/main/res/layout/activity_reqmoney_page.xml" value="0.21014492753623187" />
+        <entry key="..\:/PROGRAMMING/Android/MOBAPP/bscs/RFCBA_Module1.5v/RFCBA_BankPet/app/src/main/res/layout/activity_reqmoney_page2.xml" value="0.25" />
+        <entry key="..\:/PROGRAMMING/Android/MOBAPP/bscs/RFCBA_Module1.5v/RFCBA_BankPet/app/src/main/res/layout/activity_reqmoney_page3.xml" value="0.278125" />
+        <entry key="..\:/PROGRAMMING/Android/MOBAPP/bscs/RFCBA_Module1.5v/RFCBA_BankPet/app/src/main/res/layout/activity_reqmoney_page4.xml" value="0.20923913043478262" />
+        <entry key="..\:/PROGRAMMING/Android/MOBAPP/bscs/RFCBA_Module1.5v/RFCBA_BankPet/app/src/main/res/layout/activity_reqmoney_page5.xml" value="0.278125" />
+        <entry key="..\:/PROGRAMMING/Android/MOBAPP/bscs/RFCBA_Module1.5v/RFCBA_BankPet/app/src/main/res/layout/activity_reqmoney_page6.xml" value="0.278125" />
+        <entry key="..\:/PROGRAMMING/Android/MOBAPP/bscs/RFCBA_Module1.5v/RFCBA_BankPet/app/src/main/res/layout/activity_reqmoneypage4.xml" value="0.278125" />
+        <entry key="..\:/PROGRAMMING/Android/MOBAPP/bscs/RFCBA_Module1.5v/RFCBA_BankPet/app/src/main/res/layout/activity_request_money.xml" value="0.278125" />
+        <entry key="..\:/PROGRAMMING/Android/MOBAPP/bscs/RFCBA_Module1.5v/RFCBA_BankPet/app/src/main/res/layout/activity_signup_screen.xml" value="0.2604166666666667" />
+        <entry key="..\:/PROGRAMMING/Android/MOBAPP/bscs/RFCBA_Module1.5v/RFCBA_BankPet/app/src/main/res/layout/activity_successfull_transaction_screen.xml" value="0.2513586956521739" />
+        <entry key="..\:/PROGRAMMING/Android/MOBAPP/bscs/RFCBA_Module1.5v/RFCBA_BankPet/app/src/main/res/layout/activity_tansfer_page2.xml" value="0.278125" />
+        <entry key="..\:/PROGRAMMING/Android/MOBAPP/bscs/RFCBA_Module1.5v/RFCBA_BankPet/app/src/main/res/layout/activity_tcscreen.xml" value="0.2226855713094245" />
+        <entry key="..\:/PROGRAMMING/Android/MOBAPP/bscs/RFCBA_Module1.5v/RFCBA_BankPet/app/src/main/res/layout/activity_transfer_page.xml" value="0.278125" />
+        <entry key="..\:/PROGRAMMING/Android/MOBAPP/bscs/RFCBA_Module1.5v/RFCBA_BankPet/app/src/main/res/layout/activity_transfer_page2.xml" value="0.278125" />
+        <entry key="..\:/PROGRAMMING/Android/MOBAPP/bscs/RFCBA_Module1.5v/RFCBA_BankPet/app/src/main/res/layout/activity_transfer_page3.xml" value="0.278125" />
+        <entry key="..\:/PROGRAMMING/Android/MOBAPP/bscs/RFCBA_Module1.5v/RFCBA_BankPet/app/src/main/res/layout/activity_transfer_page4.xml" value="0.278125" />
+        <entry key="..\:/PROGRAMMING/Android/MOBAPP/bscs/RFCBA_Module1.5v/RFCBA_BankPet/app/src/main/res/layout/activity_transfer_page5.xml" value="0.2640625" />
+        <entry key="..\:/PROGRAMMING/Android/MOBAPP/bscs/RFCBA_Module1.5v/RFCBA_BankPet/app/src/main/res/layout/activity_transfer_page6.xml" value="0.278125" />
+        <entry key="..\:/PROGRAMMING/Android/MOBAPP/bscs/RFCBA_Module1.5v/RFCBA_BankPet/app/src/main/res/layout/activity_transfer_page7.xml" value="0.278125" />
+        <entry key="..\:/PROGRAMMING/Android/MOBAPP/bscs/RFCBA_Module1.5v/RFCBA_BankPet/app/src/main/res/layout/fragment_account.xml" value="0.33" />
+        <entry key="..\:/PROGRAMMING/Android/MOBAPP/bscs/RFCBA_Module1.5v/RFCBA_BankPet/app/src/main/res/layout/fragment_donation.xml" value="0.278125" />
+        <entry key="..\:/PROGRAMMING/Android/MOBAPP/bscs/RFCBA_Module1.5v/RFCBA_BankPet/app/src/main/res/layout/fragment_history.xml" value="0.278125" />
+        <entry key="..\:/PROGRAMMING/Android/MOBAPP/bscs/RFCBA_Module1.5v/RFCBA_BankPet/app/src/main/res/layout/fragment_home.xml" value="0.278125" />
+        <entry key="..\:/PROGRAMMING/Android/MOBAPP/bscs/RFCBA_Module1.5v/RFCBA_BankPet/app/src/main/res/layout/logs.xml" value="0.278125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

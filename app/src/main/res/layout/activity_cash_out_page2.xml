@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorprimary"
+    tools:context=".CashOut_Page2">
+
+    <TextView
+        android:layout_marginTop="86dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cash Out"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/cashout_white" />
+
+    <TextView
+        android:layout_width="271dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="85dp"
+        android:text="You are about to Cash out"
+        android:textColor="@color/coloraccent"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/cashout_EA"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round"
+        android:textAlignment="center"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center"
+        android:hint="PHP 0.00"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_width="271dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="using your Gcash Account"
+        android:textColor="@color/coloraccent"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+<!--    <TextView-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginTop="40dp"-->
+<!--        android:text="Wait for an SMS confirming your Cash-Out. Reply with the OTP to confirm."-->
+<!--        android:textAlignment="center"-->
+<!--        android:textColor="@color/coloraccentlight"-->
+<!--        android:textSize="15dp"-->
+<!--        android:textStyle="bold" />-->
+<!--    <EditText-->
+<!--        android:id="@+id/cashout_OTP"-->
+<!--        android:layout_width="230dp"-->
+<!--        android:layout_height="35dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:background="@drawable/round"-->
+<!--        android:hint="● ● ● ● ● ●"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:gravity="center"-->
+<!--        android:inputType="number"-->
+<!--        android:textSize="16sp" />-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_marginTop="90dp"
+        android:paddingLeft="30dp">
+
+        <Button
+            android:id="@+id/cashout_confirm"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/loginbutton"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="Confirm"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/cashout_cancel"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/signupbutton"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="Cancel"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorprimary"
+    tools:context=".CashOut_Page3">
+
+    <TextView
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cash Out"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:src="@drawable/cashoutlogo" />
+
+    <TextView
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="66dp"
+        android:text="Cash Out Is Being Processed!"
+        android:textAlignment="center"
+        android:textColor="@color/coloraccent"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/cashout_done"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="110dp"
+        android:layout_gravity="center"
+        android:background="@drawable/loginbutton"
+        android:text="Done"
+        android:textColor="@color/black"/>
+
+</LinearLayout>

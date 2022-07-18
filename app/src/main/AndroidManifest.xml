@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rfcba_bankpet">
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RFCBA_BankPet">
+        <activity
+            android:name=".History"
+            android:exported="false" />
+        <activity
+            android:name=".RequestMoney6"
+            android:exported="false" />
+        <activity
+            android:name=".RequestMoney5"
+            android:exported="false" />
+        <activity
+            android:name=".RequestMoney4"
+            android:exported="false" />
+        <activity
+            android:name=".RequestMoney3"
+            android:exported="false" />
+        <activity
+            android:name=".RequestMoney2"
+            android:exported="false" />
+        <activity
+            android:name=".RequestMoney"
+            android:exported="false" />
+        <activity
+            android:name=".TransferPage7"
+            android:exported="false" />
+        <activity
+            android:name=".TransferPage6"
+            android:exported="false" />
+        <activity
+            android:name=".TransferPage5"
+            android:exported="false" />
+        <activity
+            android:name=".TransferPage4"
+            android:exported="false" />
+        <activity
+            android:name=".TransferPage2"
+            android:exported="false" />
+        <activity
+            android:name=".TransferPage3"
+            android:exported="false" />
+        <activity
+            android:name=".TransferPage"
+            android:exported="false" />
+        <activity
+            android:name=".DonationPage2"
+            android:exported="false" />
+        <activity
+            android:name=".TCScreen"
+            android:exported="false" />
+        <activity
+            android:name=".SuccessfullTransactionScreen"
+            android:exported="false" />
+        <activity
+            android:name=".DonatedPage"
+            android:exported="false" />
+        <activity
+            android:name=".DonateTransactionPage"
+            android:exported="false" />
+        <activity
+            android:name=".edit_information"
+            android:exported="false" />
+        <activity
+            android:name=".CashOut_Page3"
+            android:exported="false" />
+        <activity
+            android:name=".CashOut_Page2"
+            android:exported="false" />
+        <activity
+            android:name=".CashOut_Page1"
+            android:exported="false" />
+        <activity
+            android:name=".CashIn_Page3"
+            android:exported="false" />
+        <activity
+            android:name=".CashIn_Page2"
+            android:exported="false" />
+        <activity
+            android:name=".CashIn_Page1"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EmailVerify"
+            android:exported="false" />
+        <activity
+            android:name=".SignupScreen"
+            android:exported="false" />
+        <activity
+            android:name=".LoginScreen"
+            android:exported="false" />
+        <activity
+            android:name=".GetOtp"
+            android:exported="false" />
+        <activity
+            android:name=".VerifyOtp"
+            android:exported="false" />
+        <activity
+            android:name=".SuccessfullySignedUp"
+            android:exported="false" />
+        <activity
+            android:name=".SuccessfullyLogin"
+            android:exported="false" />
+        <activity
+            android:name=".StartupScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
