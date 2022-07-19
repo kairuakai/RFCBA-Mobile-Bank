@@ -47,7 +47,18 @@ In this page, user may able to deposit the money to the RFCBA Mobile Application
 
 Withdrawal on this application is possible by just selecting cash out button and filled up all needed information to proceed the transaction.
 
-![Main](app/src/main/res/user-manual/cashin1.png) ![Main](app/src/main/res/user-manual/cashout1.png)
+![Main](app/src/main/res/user-manual/cashin1.png) ![Main](app/src/main/res/user-manual/cashout2.png)
+
+### 5. Donate and Donations
+* Donate
+
+Every successful transaction, this page will show up to ask for small amount of fund to help the our furry friends who are needs our help.
+
+* Donations
+
+All funds that has been collected will be visible at donation option, the total every 3 months will be given to The Philippine Animal Welfare Society, Inc.
+
+![Main](app/src/main/res/user-manual/donate1.png) ![Main](app/src/main/res/user-manual/donations1.png)
 
 
 
