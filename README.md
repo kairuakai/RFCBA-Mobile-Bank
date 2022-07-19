@@ -60,20 +60,20 @@ All funds that has been collected will be visible at donation option, the total 
 
 ![Main](app/src/main/res/user-manual/donate1.png) ![Main](app/src/main/res/user-manual/donations1.png)
 
-### Demo Video
+## Demo Video
 To watch demo, click the link -> [Youtube](https://www.google.com)
 
-### Group 1:
+## Group 1:
 * Kyle G. Coronel
 * Asmila A. Alden
 * Melanie Belandres
 * Manel Honey Mae V. Facto
 * Clarize P. Rosales
 
-### Adviser:
+## Adviser:
 * Jefferson A. Costales
 
-### School Name:
+## School Name:
 Eulogio "Amang" Rodriguez Insitute of Science and Technology
 
 Nagtahan, Sampaloc, Manila, Philippines
@@ -82,7 +82,7 @@ College of Arts and Sciences
 
 ITE Department
 
-### Course:
+## Course:
 * Bachelor of Science in Computer Science
 
 ### Date:
