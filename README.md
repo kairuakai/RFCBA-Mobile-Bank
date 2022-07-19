@@ -85,7 +85,7 @@ ITE Department
 ## Course:
 * Bachelor of Science in Computer Science
 
-### Date:
+## Date:
 * July 19, 2022
 
 
