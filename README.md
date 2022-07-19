@@ -61,7 +61,7 @@ All funds that has been collected will be visible at donation option, the total 
 ![Main](app/src/main/res/user-manual/donate1.png) ![Main](app/src/main/res/user-manual/donations1.png)
 
 ### Demo Video
--Link
+To watch demo, click the link -> [Youtube](https://www.google.com)
 
 ### Group 1:
 * Kyle G. Coronel
