@@ -61,7 +61,7 @@ All funds that has been collected will be visible at donation option, the total 
 ![Main](app/src/main/res/user-manual/donate1.png) ![Main](app/src/main/res/user-manual/donations1.png)
 
 ## Demo Video
-To watch demo, click the link -> [Youtube](https://www.google.com)
+To watch demo, click the link -> [https://www.youtube.com/watch?v=LuDratemQ-c](https://www.youtube.com/watch?v=LuDratemQ-c)
 
 ## Group 1:
 * Kyle G. Coronel
@@ -86,7 +86,7 @@ ITE Department
 * Bachelor of Science in Computer Science
 
 ## Date:
-* July 19, 2022
+* July 20, 2022
 
 
 
